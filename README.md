@@ -1,2 +1,2 @@
 # beomdo-park
-prototyping capstone at March
+prototyping capstone
