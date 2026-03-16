@@ -1,0 +1,17 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter and editor noise
+.ipynb_checkpoints/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db

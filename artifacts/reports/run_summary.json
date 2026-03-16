@@ -1,0 +1,246 @@
+{
+  "x_path": {
+    "path": "x",
+    "artifact_prefix": "",
+    "best_val_exact_match": 0.6553333333333333,
+    "test_loss": 0.14400841554005941,
+    "test_exact_match": 0.7033333333333334,
+    "test_bit_acc": 0.9498148148148148,
+    "test_pred_mean_hamming": 1.189,
+    "test_true_mean_hamming": 1.2186666666666666,
+    "test_pred_zero_mask_ratio": 0.14566666666666667,
+    "test_true_zero_mask_ratio": 0.10833333333333334,
+    "test_bit_activation_rate": [
+      0.15733333333333333,
+      0.31933333333333336,
+      0.10566666666666667,
+      0.14,
+      0.20933333333333334,
+      0.14033333333333334,
+      0.021333333333333333,
+      0.07133333333333333,
+      0.024333333333333332
+    ],
+    "pos_weight": [
+      4.0,
+      2.284072160720825,
+      4.0,
+      4.0,
+      3.4900577068328857,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "decision_thresholds": [
+      0.6499999761581421,
+      0.550000011920929,
+      0.6499999761581421,
+      0.8500000238418579,
+      0.75,
+      0.8500000238418579,
+      0.75,
+      0.800000011920929,
+      0.6000000238418579
+    ],
+    "test_ambiguity_clear": {
+      "exact_match": 0.7229357798165138,
+      "bit_acc": 0.95361875637105,
+      "pred_mean_hamming": 1.0880733944954128,
+      "true_mean_hamming": 1.081651376146789,
+      "pred_zero_mask_ratio": 0.1651376146788991,
+      "true_zero_mask_ratio": 0.12752293577981652,
+      "bit_activation_rate": [
+        0.13944954128440368,
+        0.27660550458715594,
+        0.07247706422018349,
+        0.12981651376146788,
+        0.19770642201834862,
+        0.14678899082568808,
+        0.023853211009174313,
+        0.07477064220183487,
+        0.026605504587155965
+      ],
+      "sample_count": 2180
+    },
+    "test_ambiguity_ambiguous": {
+      "exact_match": 0.651219512195122,
+      "bit_acc": 0.9397018970189702,
+      "pred_mean_hamming": 1.4573170731707317,
+      "true_mean_hamming": 1.5829268292682928,
+      "pred_zero_mask_ratio": 0.09390243902439024,
+      "true_zero_mask_ratio": 0.05731707317073171,
+      "bit_activation_rate": [
+        0.2048780487804878,
+        0.4329268292682927,
+        0.19390243902439025,
+        0.16707317073170733,
+        0.24024390243902438,
+        0.12317073170731707,
+        0.014634146341463415,
+        0.06219512195121951,
+        0.018292682926829267
+      ],
+      "sample_count": 820
+    },
+    "quantized_test": {
+      "exact_match": 0.7056666666666667,
+      "bit_acc": 0.95,
+      "pred_mean_hamming": 1.1906666666666668,
+      "true_mean_hamming": 1.2186666666666666,
+      "pred_zero_mask_ratio": 0.144,
+      "true_zero_mask_ratio": 0.10833333333333334,
+      "bit_activation_rate": [
+        0.16,
+        0.318,
+        0.10466666666666667,
+        0.13933333333333334,
+        0.21066666666666667,
+        0.14233333333333334,
+        0.021333333333333333,
+        0.07033333333333333,
+        0.024
+      ],
+      "sample_count": 3000
+    },
+    "input_dim": 24,
+    "hidden_dim": 32,
+    "output_dim": 9,
+    "model_path": "artifacts/models/policy_x.pt"
+  },
+  "z_path": {
+    "path": "z",
+    "artifact_prefix": "",
+    "best_val_exact_match": 0.631,
+    "test_loss": 0.13312283249696097,
+    "test_exact_match": 0.7093333333333334,
+    "test_bit_acc": 0.9544444444444444,
+    "test_pred_mean_hamming": 1.224,
+    "test_true_mean_hamming": 1.1926666666666668,
+    "test_pred_zero_mask_ratio": 0.145,
+    "test_true_zero_mask_ratio": 0.12,
+    "test_bit_activation_rate": [
+      0.15066666666666667,
+      0.32566666666666666,
+      0.1,
+      0.132,
+      0.232,
+      0.165,
+      0.023,
+      0.076,
+      0.019666666666666666
+    ],
+    "pos_weight": [
+      4.0,
+      2.3301618099212646,
+      4.0,
+      4.0,
+      3.5263497829437256,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "decision_thresholds": [
+      0.699999988079071,
+      0.6000000238418579,
+      0.550000011920929,
+      0.8500000238418579,
+      0.699999988079071,
+      0.75,
+      0.6000000238418579,
+      0.75,
+      0.699999988079071
+    ],
+    "test_ambiguity_clear": {
+      "exact_match": 0.7390904915020671,
+      "bit_acc": 0.9594753228193743,
+      "pred_mean_hamming": 1.1345888837850253,
+      "true_mean_hamming": 1.056499770326137,
+      "pred_zero_mask_ratio": 0.16766192007349565,
+      "true_zero_mask_ratio": 0.1414790996784566,
+      "bit_activation_rate": [
+        0.14193844740468534,
+        0.3040881947634359,
+        0.07625172255397336,
+        0.12586127698667893,
+        0.19935691318327975,
+        0.16306844281120808,
+        0.0266421681212678,
+        0.07854846118511713,
+        0.018833256775378962
+      ],
+      "sample_count": 2177
+    },
+    "test_ambiguity_ambiguous": {
+      "exact_match": 0.6306196840826246,
+      "bit_acc": 0.9411367625219387,
+      "pred_mean_hamming": 1.4605103280680438,
+      "true_mean_hamming": 1.5528554070473877,
+      "pred_zero_mask_ratio": 0.0850546780072904,
+      "true_zero_mask_ratio": 0.06318347509113001,
+      "bit_activation_rate": [
+        0.17375455650060753,
+        0.3827460510328068,
+        0.16281895504252733,
+        0.14823815309842042,
+        0.3183475091130012,
+        0.1701093560145808,
+        0.013365735115431349,
+        0.0692588092345079,
+        0.02187120291616039
+      ],
+      "sample_count": 823
+    },
+    "quantized_test": {
+      "exact_match": 0.713,
+      "bit_acc": 0.9545555555555556,
+      "pred_mean_hamming": 1.2263333333333333,
+      "true_mean_hamming": 1.1926666666666668,
+      "pred_zero_mask_ratio": 0.14433333333333334,
+      "true_zero_mask_ratio": 0.12,
+      "bit_activation_rate": [
+        0.15233333333333332,
+        0.32266666666666666,
+        0.09966666666666667,
+        0.13266666666666665,
+        0.232,
+        0.16633333333333333,
+        0.023,
+        0.07766666666666666,
+        0.02
+      ],
+      "sample_count": 3000
+    },
+    "input_dim": 24,
+    "hidden_dim": 32,
+    "output_dim": 9,
+    "model_path": "artifacts/models/policy_z.pt"
+  },
+  "logical_error_rate": {
+    "x_path": {
+      "num_shots": 10000,
+      "logical_support_indices": [
+        0,
+        3,
+        6
+      ],
+      "baseline_logical_errors": 1109,
+      "baseline_logical_error_rate": 0.1109,
+      "model_logical_errors": 3221,
+      "model_logical_error_rate": 0.3221
+    },
+    "z_path": {
+      "num_shots": 10000,
+      "logical_support_indices": [
+        0,
+        1,
+        2
+      ],
+      "baseline_logical_errors": 1243,
+      "baseline_logical_error_rate": 0.1243,
+      "model_logical_errors": 3451,
+      "model_logical_error_rate": 0.3451
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "config": {
+    "scale_weight": 127,
+    "scale_activation": 127,
+    "scale_bias": 1024
+  },
+  "x_path": {
+    "path": "x",
+    "input_dim": 24,
+    "hidden_dim": 32,
+    "output_dim": 9,
+    "fc1_weight_shape": [
+      32,
+      24
+    ],
+    "fc1_bias_shape": [
+      32
+    ],
+    "fc2_weight_shape": [
+      9,
+      32
+    ],
+    "fc2_bias_shape": [
+      9
+    ]
+  },
+  "z_path": {
+    "path": "z",
+    "input_dim": 24,
+    "hidden_dim": 32,
+    "output_dim": 9,
+    "fc1_weight_shape": [
+      32,
+      24
+    ],
+    "fc1_bias_shape": [
+      32
+    ],
+    "fc2_weight_shape": [
+      9,
+      32
+    ],
+    "fc2_bias_shape": [
+      9
+    ]
+  }
+}

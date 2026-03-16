@@ -1,0 +1,1870 @@
+{
+  "x_path": {
+    "task": "surface_code:rotated_memory_x",
+    "graph_edge_count": 110,
+    "edges_with_union_support": 110,
+    "edges_with_intersection_support": 35,
+    "sampled_solution_support": {
+      "acceptance_rate": 0.869,
+      "union_mask_stats": {
+        "sample_count": 1000,
+        "bit_activation": [
+          0.419,
+          0.538,
+          0.456,
+          0.545,
+          0.703,
+          0.533,
+          0.493,
+          0.543,
+          0.38
+        ],
+        "dead_bits": [],
+        "hamming_distribution": {
+          "0": 99,
+          "1": 26,
+          "2": 103,
+          "3": 89,
+          "4": 129,
+          "5": 147,
+          "6": 156,
+          "7": 131,
+          "8": 73,
+          "9": 47
+        },
+        "mean_hamming": 4.61
+      },
+      "intersection_mask_stats": {
+        "sample_count": 1000,
+        "bit_activation": [
+          0.013,
+          0.02,
+          0.017,
+          0.097,
+          0.096,
+          0.079,
+          0.018,
+          0.024,
+          0.007
+        ],
+        "dead_bits": [],
+        "hamming_distribution": {
+          "0": 682,
+          "1": 271,
+          "2": 41,
+          "3": 6
+        },
+        "mean_hamming": 0.371
+      },
+      "unmatched_edges": 0
+    },
+    "representative_edges": {
+      "0|2": {
+        "nodes": [
+          0,
+          2
+        ],
+        "filters": [
+          "error(1) D0 D2"
+        ],
+        "num_location_supports": 7,
+        "num_non_empty_supports": 7,
+        "support_union": [
+          3
+        ],
+        "support_intersection": [
+          3
+        ],
+        "support_union_mask": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_intersection_mask": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "3": 7
+        }
+      },
+      "0|4": {
+        "nodes": [
+          0,
+          4
+        ],
+        "filters": [
+          "error(1) D0 D4"
+        ],
+        "num_location_supports": 14,
+        "num_non_empty_supports": 8,
+        "support_union": [
+          0,
+          3
+        ],
+        "support_intersection": [],
+        "support_union_mask": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_intersection_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "0": 4,
+          "3": 4
+        }
+      },
+      "0|B": {
+        "nodes": [
+          0,
+          null
+        ],
+        "filters": [
+          "error(1) D0",
+          "error(1) D0 L0"
+        ],
+        "num_location_supports": 7,
+        "num_non_empty_supports": 7,
+        "support_union": [
+          0
+        ],
+        "support_intersection": [
+          0
+        ],
+        "support_union_mask": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_intersection_mask": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "0": 7
+        }
+      },
+      "1|2": {
+        "nodes": [
+          1,
+          2
+        ],
+        "filters": [
+          "error(1) D1 D2"
+        ],
+        "num_location_supports": 11,
+        "num_non_empty_supports": 11,
+        "support_union": [
+          3,
+          4
+        ],
+        "support_intersection": [],
+        "support_union_mask": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_intersection_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "3": 2,
+          "4": 9
+        }
+      },
+      "5|B": {
+        "nodes": [
+          5,
+          null
+        ],
+        "filters": [
+          "error(1) D5",
+          "error(1) D5 L0"
+        ],
+        "num_location_supports": 31,
+        "num_non_empty_supports": 29,
+        "support_union": [
+          0,
+          1,
+          3,
+          4,
+          6
+        ],
+        "support_intersection": [],
+        "support_union_mask": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "support_intersection_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "0": 9,
+          "1": 1,
+          "3": 8,
+          "4": 9,
+          "6": 2
+        }
+      },
+      "1|3": {
+        "nodes": [
+          1,
+          3
+        ],
+        "filters": [
+          "error(1) D1 D3"
+        ],
+        "num_location_supports": 7,
+        "num_non_empty_supports": 7,
+        "support_union": [
+          5
+        ],
+        "support_intersection": [
+          5
+        ],
+        "support_union_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "support_intersection_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "5": 7
+        }
+      },
+      "1|4": {
+        "nodes": [
+          1,
+          4
+        ],
+        "filters": [
+          "error(1) D1 D4"
+        ],
+        "num_location_supports": 3,
+        "num_non_empty_supports": 3,
+        "support_union": [
+          1,
+          3
+        ],
+        "support_intersection": [],
+        "support_union_mask": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_intersection_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "1": 1,
+          "3": 2
+        }
+      },
+      "1|6": {
+        "nodes": [
+          1,
+          6
+        ],
+        "filters": [
+          "error(1) D1 D6"
+        ],
+        "num_location_supports": 3,
+        "num_non_empty_supports": 3,
+        "support_union": [
+          4
+        ],
+        "support_intersection": [
+          4
+        ],
+        "support_union_mask": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_intersection_mask": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "4": 3
+        }
+      },
+      "8|B": {
+        "nodes": [
+          8,
+          null
+        ],
+        "filters": [
+          "error(1) D8",
+          "error(1) D8 L0"
+        ],
+        "num_location_supports": 17,
+        "num_non_empty_supports": 15,
+        "support_union": [
+          1,
+          2,
+          4
+        ],
+        "support_intersection": [],
+        "support_union_mask": [
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_intersection_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "1": 5,
+          "2": 9,
+          "4": 1
+        }
+      },
+      "1|9": {
+        "nodes": [
+          1,
+          9
+        ],
+        "filters": [
+          "error(1) D1 D9"
+        ],
+        "num_location_supports": 15,
+        "num_non_empty_supports": 9,
+        "support_union": [
+          1,
+          2,
+          4,
+          5
+        ],
+        "support_intersection": [],
+        "support_union_mask": [
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "support_intersection_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "1": 2,
+          "2": 2,
+          "4": 1,
+          "5": 4
+        }
+      },
+      "1|B": {
+        "nodes": [
+          1,
+          null
+        ],
+        "filters": [
+          "error(1) D1",
+          "error(1) D1 L0"
+        ],
+        "num_location_supports": 19,
+        "num_non_empty_supports": 19,
+        "support_union": [
+          1,
+          2
+        ],
+        "support_intersection": [],
+        "support_union_mask": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_intersection_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "1": 10,
+          "2": 9
+        }
+      },
+      "4|B": {
+        "nodes": [
+          4,
+          null
+        ],
+        "filters": [
+          "error(1) D4",
+          "error(1) D4 L0"
+        ],
+        "num_location_supports": 12,
+        "num_non_empty_supports": 12,
+        "support_union": [
+          0,
+          1
+        ],
+        "support_intersection": [],
+        "support_union_mask": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_intersection_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "0": 11,
+          "1": 1
+        }
+      },
+      "2|B": {
+        "nodes": [
+          2,
+          null
+        ],
+        "filters": [
+          "error(1) D2",
+          "error(1) D2 L0"
+        ],
+        "num_location_supports": 12,
+        "num_non_empty_supports": 12,
+        "support_union": [
+          6,
+          7
+        ],
+        "support_intersection": [],
+        "support_union_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "support_intersection_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "6": 5,
+          "7": 7
+        }
+      },
+      "2|4": {
+        "nodes": [
+          2,
+          4
+        ],
+        "filters": [
+          "error(1) D2 D4"
+        ],
+        "num_location_supports": 8,
+        "num_non_empty_supports": 8,
+        "support_union": [
+          3
+        ],
+        "support_intersection": [
+          3
+        ],
+        "support_union_mask": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_intersection_mask": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "3": 8
+        }
+      },
+      "2|6": {
+        "nodes": [
+          2,
+          6
+        ],
+        "filters": [
+          "error(1) D2 D6"
+        ],
+        "num_location_supports": 16,
+        "num_non_empty_supports": 10,
+        "support_union": [
+          3,
+          4,
+          6,
+          7
+        ],
+        "support_intersection": [],
+        "support_union_mask": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "support_intersection_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "3": 2,
+          "4": 2,
+          "6": 2,
+          "7": 4
+        }
+      },
+      "3|B": {
+        "nodes": [
+          3,
+          null
+        ],
+        "filters": [
+          "error(1) D3",
+          "error(1) D3 L0"
+        ],
+        "num_location_supports": 11,
+        "num_non_empty_supports": 11,
+        "support_union": [
+          7,
+          8
+        ],
+        "support_intersection": [],
+        "support_union_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "support_intersection_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "7": 2,
+          "8": 9
+        }
+      },
+      "3|6": {
+        "nodes": [
+          3,
+          6
+        ],
+        "filters": [
+          "error(1) D3 D6"
+        ],
+        "num_location_supports": 4,
+        "num_non_empty_supports": 4,
+        "support_union": [
+          5,
+          7
+        ],
+        "support_intersection": [],
+        "support_union_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "support_intersection_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "5": 2,
+          "7": 2
+        }
+      },
+      "10|B": {
+        "nodes": [
+          10,
+          null
+        ],
+        "filters": [
+          "error(1) D10",
+          "error(1) D10 L0"
+        ],
+        "num_location_supports": 26,
+        "num_non_empty_supports": 24,
+        "support_union": [
+          2,
+          4,
+          5,
+          7,
+          8
+        ],
+        "support_intersection": [],
+        "support_union_mask": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1
+        ],
+        "support_intersection_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "2": 1,
+          "4": 2,
+          "5": 8,
+          "7": 4,
+          "8": 9
+        }
+      },
+      "3|9": {
+        "nodes": [
+          3,
+          9
+        ],
+        "filters": [
+          "error(1) D3 D9"
+        ],
+        "num_location_supports": 8,
+        "num_non_empty_supports": 8,
+        "support_union": [
+          5
+        ],
+        "support_intersection": [
+          5
+        ],
+        "support_union_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "support_intersection_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "5": 8
+        }
+      },
+      "3|11": {
+        "nodes": [
+          3,
+          11
+        ],
+        "filters": [
+          "error(1) D3 D11"
+        ],
+        "num_location_supports": 10,
+        "num_non_empty_supports": 4,
+        "support_union": [
+          5,
+          8
+        ],
+        "support_intersection": [],
+        "support_union_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        "support_intersection_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "5": 2,
+          "8": 2
+        }
+      }
+    }
+  },
+  "z_path": {
+    "task": "surface_code:rotated_memory_z",
+    "graph_edge_count": 110,
+    "edges_with_union_support": 110,
+    "edges_with_intersection_support": 41,
+    "sampled_solution_support": {
+      "acceptance_rate": 0.8865,
+      "union_mask_stats": {
+        "sample_count": 1000,
+        "bit_activation": [
+          0.409,
+          0.56,
+          0.479,
+          0.656,
+          0.727,
+          0.636,
+          0.489,
+          0.564,
+          0.394
+        ],
+        "dead_bits": [],
+        "hamming_distribution": {
+          "0": 97,
+          "1": 34,
+          "2": 46,
+          "3": 86,
+          "4": 121,
+          "5": 141,
+          "6": 164,
+          "7": 168,
+          "8": 106,
+          "9": 37
+        },
+        "mean_hamming": 4.914
+      },
+      "intersection_mask_stats": {
+        "sample_count": 1000,
+        "bit_activation": [
+          0.0,
+          0.057,
+          0.06,
+          0.023,
+          0.098,
+          0.024,
+          0.06,
+          0.038,
+          0.0
+        ],
+        "dead_bits": [
+          0,
+          8
+        ],
+        "hamming_distribution": {
+          "0": 681,
+          "1": 282,
+          "2": 33,
+          "3": 4
+        },
+        "mean_hamming": 0.36
+      },
+      "unmatched_edges": 0
+    },
+    "representative_edges": {
+      "0|B": {
+        "nodes": [
+          0,
+          null
+        ],
+        "filters": [
+          "error(1) D0",
+          "error(1) D0 L0"
+        ],
+        "num_location_supports": 7,
+        "num_non_empty_supports": 7,
+        "support_union": [
+          2
+        ],
+        "support_intersection": [
+          2
+        ],
+        "support_union_mask": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_intersection_mask": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "2": 7
+        }
+      },
+      "0|1": {
+        "nodes": [
+          0,
+          1
+        ],
+        "filters": [
+          "error(1) D0 D1"
+        ],
+        "num_location_supports": 7,
+        "num_non_empty_supports": 7,
+        "support_union": [
+          1
+        ],
+        "support_intersection": [
+          1
+        ],
+        "support_union_mask": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_intersection_mask": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "1": 7
+        }
+      },
+      "0|8": {
+        "nodes": [
+          0,
+          8
+        ],
+        "filters": [
+          "error(1) D0 D8"
+        ],
+        "num_location_supports": 10,
+        "num_non_empty_supports": 8,
+        "support_union": [
+          1,
+          2
+        ],
+        "support_intersection": [],
+        "support_union_mask": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_intersection_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "1": 4,
+          "2": 4
+        }
+      },
+      "1|2": {
+        "nodes": [
+          1,
+          2
+        ],
+        "filters": [
+          "error(1) D1 D2"
+        ],
+        "num_location_supports": 7,
+        "num_non_empty_supports": 7,
+        "support_union": [
+          4
+        ],
+        "support_intersection": [
+          4
+        ],
+        "support_union_mask": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_intersection_mask": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "4": 7
+        }
+      },
+      "1|5": {
+        "nodes": [
+          1,
+          5
+        ],
+        "filters": [
+          "error(1) D1 D5"
+        ],
+        "num_location_supports": 12,
+        "num_non_empty_supports": 10,
+        "support_union": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "support_intersection": [],
+        "support_union_mask": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_intersection_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "0": 2,
+          "1": 2,
+          "3": 2,
+          "4": 4
+        }
+      },
+      "4|B": {
+        "nodes": [
+          4,
+          null
+        ],
+        "filters": [
+          "error(1) D4",
+          "error(1) D4 L0"
+        ],
+        "num_location_supports": 25,
+        "num_non_empty_supports": 19,
+        "support_union": [
+          0,
+          1,
+          3
+        ],
+        "support_intersection": [],
+        "support_union_mask": [
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_intersection_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "0": 9,
+          "1": 2,
+          "3": 8
+        }
+      },
+      "1|8": {
+        "nodes": [
+          1,
+          8
+        ],
+        "filters": [
+          "error(1) D1 D8"
+        ],
+        "num_location_supports": 6,
+        "num_non_empty_supports": 6,
+        "support_union": [
+          1
+        ],
+        "support_intersection": [
+          1
+        ],
+        "support_union_mask": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_intersection_mask": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "1": 6
+        }
+      },
+      "1|B": {
+        "nodes": [
+          1,
+          null
+        ],
+        "filters": [
+          "error(1) D1",
+          "error(1) D1 L0"
+        ],
+        "num_location_supports": 18,
+        "num_non_empty_supports": 18,
+        "support_union": [
+          0,
+          3
+        ],
+        "support_intersection": [],
+        "support_union_mask": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_intersection_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "0": 9,
+          "3": 9
+        }
+      },
+      "2|B": {
+        "nodes": [
+          2,
+          null
+        ],
+        "filters": [
+          "error(1) D2",
+          "error(1) D2 L0"
+        ],
+        "num_location_supports": 17,
+        "num_non_empty_supports": 17,
+        "support_union": [
+          2,
+          5,
+          8
+        ],
+        "support_intersection": [],
+        "support_union_mask": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        "support_intersection_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "2": 2,
+          "5": 8,
+          "8": 7
+        }
+      },
+      "2|3": {
+        "nodes": [
+          2,
+          3
+        ],
+        "filters": [
+          "error(1) D2 D3"
+        ],
+        "num_location_supports": 11,
+        "num_non_empty_supports": 11,
+        "support_union": [
+          4,
+          7
+        ],
+        "support_intersection": [],
+        "support_union_mask": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "support_intersection_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "4": 2,
+          "7": 9
+        }
+      },
+      "6|B": {
+        "nodes": [
+          6,
+          null
+        ],
+        "filters": [
+          "error(1) D6",
+          "error(1) D6 L0"
+        ],
+        "num_location_supports": 29,
+        "num_non_empty_supports": 23,
+        "support_union": [
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "support_intersection": [],
+        "support_union_mask": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0
+        ],
+        "support_intersection_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "3": 2,
+          "4": 3,
+          "5": 1,
+          "6": 6,
+          "7": 11
+        }
+      },
+      "2|5": {
+        "nodes": [
+          2,
+          5
+        ],
+        "filters": [
+          "error(1) D2 D5"
+        ],
+        "num_location_supports": 9,
+        "num_non_empty_supports": 9,
+        "support_union": [
+          4
+        ],
+        "support_intersection": [
+          4
+        ],
+        "support_union_mask": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_intersection_mask": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "4": 9
+        }
+      },
+      "6|9": {
+        "nodes": [
+          6,
+          9
+        ],
+        "filters": [
+          "error(1) D6 D9"
+        ],
+        "num_location_supports": 9,
+        "num_non_empty_supports": 9,
+        "support_union": [
+          3,
+          4,
+          5
+        ],
+        "support_intersection": [],
+        "support_union_mask": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "support_intersection_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "3": 1,
+          "4": 7,
+          "5": 1
+        }
+      },
+      "9|B": {
+        "nodes": [
+          9,
+          null
+        ],
+        "filters": [
+          "error(1) D9",
+          "error(1) D9 L0"
+        ],
+        "num_location_supports": 30,
+        "num_non_empty_supports": 24,
+        "support_union": [
+          1,
+          2,
+          4,
+          5
+        ],
+        "support_intersection": [],
+        "support_union_mask": [
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "support_intersection_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "1": 10,
+          "2": 6,
+          "4": 1,
+          "5": 7
+        }
+      },
+      "2|8": {
+        "nodes": [
+          2,
+          8
+        ],
+        "filters": [
+          "error(1) D2 D8"
+        ],
+        "num_location_supports": 3,
+        "num_non_empty_supports": 3,
+        "support_union": [
+          2,
+          4
+        ],
+        "support_intersection": [],
+        "support_union_mask": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_intersection_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "2": 2,
+          "4": 1
+        }
+      },
+      "2|10": {
+        "nodes": [
+          2,
+          10
+        ],
+        "filters": [
+          "error(1) D2 D10"
+        ],
+        "num_location_supports": 11,
+        "num_non_empty_supports": 9,
+        "support_union": [
+          4,
+          5,
+          7,
+          8
+        ],
+        "support_intersection": [],
+        "support_union_mask": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1
+        ],
+        "support_intersection_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "4": 2,
+          "5": 1,
+          "7": 2,
+          "8": 4
+        }
+      },
+      "3|5": {
+        "nodes": [
+          3,
+          5
+        ],
+        "filters": [
+          "error(1) D3 D5"
+        ],
+        "num_location_supports": 4,
+        "num_non_empty_supports": 4,
+        "support_union": [
+          4,
+          6
+        ],
+        "support_intersection": [],
+        "support_union_mask": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "support_intersection_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "4": 2,
+          "6": 2
+        }
+      },
+      "3|7": {
+        "nodes": [
+          3,
+          7
+        ],
+        "filters": [
+          "error(1) D3 D7"
+        ],
+        "num_location_supports": 6,
+        "num_non_empty_supports": 4,
+        "support_union": [
+          6,
+          7
+        ],
+        "support_intersection": [],
+        "support_union_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "support_intersection_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "6": 2,
+          "7": 2
+        }
+      },
+      "3|10": {
+        "nodes": [
+          3,
+          10
+        ],
+        "filters": [
+          "error(1) D3 D10"
+        ],
+        "num_location_supports": 4,
+        "num_non_empty_supports": 4,
+        "support_union": [
+          7
+        ],
+        "support_intersection": [
+          7
+        ],
+        "support_union_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "support_intersection_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "support_frequency": {
+          "7": 4
+        }
+      },
+      "3|B": {
+        "nodes": [
+          3,
+          null
+        ],
+        "filters": [
+          "error(1) D3",
+          "error(1) D3 L0"
+        ],
+        "num_location_supports": 7,
+        "num_non_empty_supports": 7,
+        "support_union": [
+          6
+        ],
+        "support_intersection": [
+          6
+        ],
+        "support_union_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "support_intersection_mask": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "support_frequency": {
+          "6": 7
+        }
+      }
+    }
+  }
+}

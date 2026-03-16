@@ -1,0 +1,548 @@
+{
+  "x_path": {
+    "task": "surface_code:rotated_memory_x",
+    "num_dem_terms_analyzed": 433,
+    "num_total_dem_terms": 468,
+    "num_error_terms": 433,
+    "num_qubits": 17,
+    "qubit_coords": {
+      "1": [
+        1.0,
+        1.0
+      ],
+      "2": [
+        2.0,
+        0.0
+      ],
+      "3": [
+        3.0,
+        1.0
+      ],
+      "5": [
+        5.0,
+        1.0
+      ],
+      "8": [
+        1.0,
+        3.0
+      ],
+      "9": [
+        2.0,
+        2.0
+      ],
+      "10": [
+        3.0,
+        3.0
+      ],
+      "11": [
+        4.0,
+        2.0
+      ],
+      "12": [
+        5.0,
+        3.0
+      ],
+      "13": [
+        6.0,
+        2.0
+      ],
+      "14": [
+        0.0,
+        4.0
+      ],
+      "15": [
+        1.0,
+        5.0
+      ],
+      "16": [
+        2.0,
+        4.0
+      ],
+      "17": [
+        3.0,
+        5.0
+      ],
+      "18": [
+        4.0,
+        4.0
+      ],
+      "19": [
+        5.0,
+        5.0
+      ],
+      "25": [
+        4.0,
+        6.0
+      ]
+    },
+    "data_qubit_coords": [
+      [
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        3.0
+      ],
+      [
+        1.0,
+        5.0
+      ],
+      [
+        3.0,
+        1.0
+      ],
+      [
+        3.0,
+        3.0
+      ],
+      [
+        3.0,
+        5.0
+      ],
+      [
+        5.0,
+        1.0
+      ],
+      [
+        5.0,
+        3.0
+      ],
+      [
+        5.0,
+        5.0
+      ]
+    ],
+    "ancilla_coords": [
+      [
+        2.0,
+        0.0
+      ],
+      [
+        2.0,
+        2.0
+      ],
+      [
+        4.0,
+        2.0
+      ],
+      [
+        6.0,
+        2.0
+      ],
+      [
+        0.0,
+        4.0
+      ],
+      [
+        2.0,
+        4.0
+      ],
+      [
+        4.0,
+        4.0
+      ],
+      [
+        4.0,
+        6.0
+      ]
+    ],
+    "category_counts": {
+      "mixed": 433
+    },
+    "multi_location_terms": 335,
+    "representative_examples": {
+      "data": [],
+      "ancilla": [],
+      "mixed": [
+        {
+          "dem_term": "error(0.01062503270450521585) D0 D2",
+          "coords": [
+            [
+              2.0,
+              0.0
+            ],
+            [
+              3.0,
+              1.0
+            ]
+          ],
+          "location_count": 7,
+          "locations": [
+            "CircuitErrorLocation {\n    flipped_pauli_product: Z2[coords 2,0]*Z3[coords 3,1]\n    Circuit location stack trace:\n        (after 2 TICKs)\n        at instruction #28 (DEPOLARIZE2) in the circuit\n        at targets #1 to #2 of the instruction\n        resolving to DEPOLARIZE2(0.02) 2[coords 2,0] 3[coords 3,1]\n}",
+            "CircuitErrorLocation {\n    flipped_pauli_product: Z2[coords 2,0]*Y3[coords 3,1]\n    Circuit location stack trace:\n        (after 2 TICKs)\n        at instruction #28 (DEPOLARIZE2) in the circuit\n        at targets #1 to #2 of the instruction\n        resolving to DEPOLARIZE2(0.02) 2[coords 2,0] 3[coords 3,1]\n}",
+            "CircuitErrorLocation {\n    flipped_pauli_product: Y2[coords 2,0]*Z3[coords 3,1]\n    Circuit location stack trace:\n        (after 2 TICKs)\n        at instruction #28 (DEPOLARIZE2) in the circuit\n        at targets #1 to #2 of the instruction\n        resolving to DEPOLARIZE2(0.02) 2[coords 2,0] 3[coords 3,1]\n}"
+          ]
+        },
+        {
+          "dem_term": "error(0.03513240556334297493) D0 D4",
+          "coords": [
+            [
+              1.0,
+              1.0
+            ],
+            [
+              2.0,
+              0.0
+            ],
+            [
+              3.0,
+              1.0
+            ]
+          ],
+          "location_count": 14,
+          "locations": [
+            "CircuitErrorLocation {\n    flipped_pauli_product: X2[coords 2,0]\n    Circuit location stack trace:\n        (after 7 TICKs)\n        at instruction #42 (X_ERROR) in the circuit\n        at target #1 of the instruction\n        resolving to X_ERROR(0.002) 2[coords 2,0]\n}",
+            "CircuitErrorLocation {\n    flipped_pauli_product: X2[coords 2,0]\n    Circuit location stack trace:\n        (after 6 TICKs)\n        at instruction #40 (DEPOLARIZE1) in the circuit\n        at target #1 of the instruction\n        resolving to DEPOLARIZE1(0.02) 2[coords 2,0]\n}",
+            "CircuitErrorLocation {\n    flipped_pauli_product: Y2[coords 2,0]\n    Circuit location stack trace:\n        (after 6 TICKs)\n        at instruction #40 (DEPOLARIZE1) in the circuit\n        at target #1 of the instruction\n        resolving to DEPOLARIZE1(0.02) 2[coords 2,0]\n}"
+          ]
+        },
+        {
+          "dem_term": "error(0.01062503270450521585) D0 L0",
+          "coords": [
+            [
+              1.0,
+              1.0
+            ],
+            [
+              2.0,
+              0.0
+            ]
+          ],
+          "location_count": 7,
+          "locations": [
+            "CircuitErrorLocation {\n    flipped_pauli_product: Z2[coords 2,0]*Z1[coords 1,1]\n    Circuit location stack trace:\n        (after 3 TICKs)\n        at instruction #31 (DEPOLARIZE2) in the circuit\n        at targets #1 to #2 of the instruction\n        resolving to DEPOLARIZE2(0.02) 2[coords 2,0] 1[coords 1,1]\n}",
+            "CircuitErrorLocation {\n    flipped_pauli_product: Z2[coords 2,0]*Y1[coords 1,1]\n    Circuit location stack trace:\n        (after 3 TICKs)\n        at instruction #31 (DEPOLARIZE2) in the circuit\n        at targets #1 to #2 of the instruction\n        resolving to DEPOLARIZE2(0.02) 2[coords 2,0] 1[coords 1,1]\n}",
+            "CircuitErrorLocation {\n    flipped_pauli_product: Y2[coords 2,0]*Z1[coords 1,1]\n    Circuit location stack trace:\n        (after 3 TICKs)\n        at instruction #31 (DEPOLARIZE2) in the circuit\n        at targets #1 to #2 of the instruction\n        resolving to DEPOLARIZE2(0.02) 2[coords 2,0] 1[coords 1,1]\n}"
+          ]
+        },
+        {
+          "dem_term": "error(0.01587317333333346236) D1 D2",
+          "coords": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              3.0,
+              1.0
+            ],
+            [
+              3.0,
+              3.0
+            ],
+            [
+              4.0,
+              2.0
+            ]
+          ],
+          "location_count": 11,
+          "locations": [
+            "CircuitErrorLocation {\n    flipped_pauli_product: Z11[coords 4,2]*Z10[coords 3,3]\n    Circuit location stack trace:\n        (after 3 TICKs)\n        at instruction #31 (DEPOLARIZE2) in the circuit\n        at targets #5 to #6 of the instruction\n        resolving to DEPOLARIZE2(0.02) 11[coords 4,2] 10[coords 3,3]\n}",
+            "CircuitErrorLocation {\n    flipped_pauli_product: Y11[coords 4,2]*Y10[coords 3,3]\n    Circuit location stack trace:\n        (after 3 TICKs)\n        at instruction #31 (DEPOLARIZE2) in the circuit\n        at targets #5 to #6 of the instruction\n        resolving to DEPOLARIZE2(0.02) 11[coords 4,2] 10[coords 3,3]\n}",
+            "CircuitErrorLocation {\n    flipped_pauli_product: Z3[coords 3,1]*Z9[coords 2,2]\n    Circuit location stack trace:\n        (after 3 TICKs)\n        at instruction #31 (DEPOLARIZE2) in the circuit\n        at targets #9 to #10 of the instruction\n        resolving to DEPOLARIZE2(0.02) 3[coords 3,1] 9[coords 2,2]\n}"
+          ]
+        },
+        {
+          "dem_term": "error(0.01066666666666676866) D1 D2 ^ D5",
+          "coords": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              3.0,
+              1.0
+            ],
+            [
+              3.0,
+              3.0
+            ],
+            [
+              4.0,
+              2.0
+            ]
+          ],
+          "location_count": 8,
+          "locations": [
+            "CircuitErrorLocation {\n    flipped_pauli_product: Z11[coords 4,2]*Y10[coords 3,3]\n    Circuit location stack trace:\n        (after 3 TICKs)\n        at instruction #31 (DEPOLARIZE2) in the circuit\n        at targets #5 to #6 of the instruction\n        resolving to DEPOLARIZE2(0.02) 11[coords 4,2] 10[coords 3,3]\n}",
+            "CircuitErrorLocation {\n    flipped_pauli_product: Y11[coords 4,2]*Z10[coords 3,3]\n    Circuit location stack trace:\n        (after 3 TICKs)\n        at instruction #31 (DEPOLARIZE2) in the circuit\n        at targets #5 to #6 of the instruction\n        resolving to DEPOLARIZE2(0.02) 11[coords 4,2] 10[coords 3,3]\n}",
+            "CircuitErrorLocation {\n    flipped_pauli_product: Z3[coords 3,1]*Y9[coords 2,2]\n    Circuit location stack trace:\n        (after 3 TICKs)\n        at instruction #31 (DEPOLARIZE2) in the circuit\n        at targets #9 to #10 of the instruction\n        resolving to DEPOLARIZE2(0.02) 3[coords 3,1] 9[coords 2,2]\n}"
+          ]
+        }
+      ],
+      "unknown": []
+    }
+  },
+  "z_path": {
+    "task": "surface_code:rotated_memory_z",
+    "num_dem_terms_analyzed": 428,
+    "num_total_dem_terms": 463,
+    "num_error_terms": 428,
+    "num_qubits": 17,
+    "qubit_coords": {
+      "1": [
+        1.0,
+        1.0
+      ],
+      "2": [
+        2.0,
+        0.0
+      ],
+      "3": [
+        3.0,
+        1.0
+      ],
+      "5": [
+        5.0,
+        1.0
+      ],
+      "8": [
+        1.0,
+        3.0
+      ],
+      "9": [
+        2.0,
+        2.0
+      ],
+      "10": [
+        3.0,
+        3.0
+      ],
+      "11": [
+        4.0,
+        2.0
+      ],
+      "12": [
+        5.0,
+        3.0
+      ],
+      "13": [
+        6.0,
+        2.0
+      ],
+      "14": [
+        0.0,
+        4.0
+      ],
+      "15": [
+        1.0,
+        5.0
+      ],
+      "16": [
+        2.0,
+        4.0
+      ],
+      "17": [
+        3.0,
+        5.0
+      ],
+      "18": [
+        4.0,
+        4.0
+      ],
+      "19": [
+        5.0,
+        5.0
+      ],
+      "25": [
+        4.0,
+        6.0
+      ]
+    },
+    "data_qubit_coords": [
+      [
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        3.0
+      ],
+      [
+        1.0,
+        5.0
+      ],
+      [
+        3.0,
+        1.0
+      ],
+      [
+        3.0,
+        3.0
+      ],
+      [
+        3.0,
+        5.0
+      ],
+      [
+        5.0,
+        1.0
+      ],
+      [
+        5.0,
+        3.0
+      ],
+      [
+        5.0,
+        5.0
+      ]
+    ],
+    "ancilla_coords": [
+      [
+        2.0,
+        0.0
+      ],
+      [
+        2.0,
+        2.0
+      ],
+      [
+        4.0,
+        2.0
+      ],
+      [
+        6.0,
+        2.0
+      ],
+      [
+        0.0,
+        4.0
+      ],
+      [
+        2.0,
+        4.0
+      ],
+      [
+        4.0,
+        4.0
+      ],
+      [
+        4.0,
+        6.0
+      ]
+    ],
+    "category_counts": {
+      "mixed": 428
+    },
+    "multi_location_terms": 330,
+    "representative_examples": {
+      "data": [],
+      "ancilla": [],
+      "mixed": [
+        {
+          "dem_term": "error(0.01062503270450521585) D0",
+          "coords": [
+            [
+              0.0,
+              4.0
+            ],
+            [
+              1.0,
+              5.0
+            ]
+          ],
+          "location_count": 7,
+          "locations": [
+            "CircuitErrorLocation {\n    flipped_pauli_product: X15[coords 1,5]*X14[coords 0,4]\n    Circuit location stack trace:\n        (after 2 TICKs)\n        at instruction #28 (DEPOLARIZE2) in the circuit\n        at targets #7 to #8 of the instruction\n        resolving to DEPOLARIZE2(0.02) 15[coords 1,5] 14[coords 0,4]\n}",
+            "CircuitErrorLocation {\n    flipped_pauli_product: X15[coords 1,5]*Y14[coords 0,4]\n    Circuit location stack trace:\n        (after 2 TICKs)\n        at instruction #28 (DEPOLARIZE2) in the circuit\n        at targets #7 to #8 of the instruction\n        resolving to DEPOLARIZE2(0.02) 15[coords 1,5] 14[coords 0,4]\n}",
+            "CircuitErrorLocation {\n    flipped_pauli_product: Y15[coords 1,5]*X14[coords 0,4]\n    Circuit location stack trace:\n        (after 2 TICKs)\n        at instruction #28 (DEPOLARIZE2) in the circuit\n        at targets #7 to #8 of the instruction\n        resolving to DEPOLARIZE2(0.02) 15[coords 1,5] 14[coords 0,4]\n}"
+          ]
+        },
+        {
+          "dem_term": "error(0.01062503270450521585) D0 D1",
+          "coords": [
+            [
+              0.0,
+              4.0
+            ],
+            [
+              1.0,
+              3.0
+            ]
+          ],
+          "location_count": 7,
+          "locations": [
+            "CircuitErrorLocation {\n    flipped_pauli_product: X8[coords 1,3]*X14[coords 0,4]\n    Circuit location stack trace:\n        (after 3 TICKs)\n        at instruction #31 (DEPOLARIZE2) in the circuit\n        at targets #7 to #8 of the instruction\n        resolving to DEPOLARIZE2(0.02) 8[coords 1,3] 14[coords 0,4]\n}",
+            "CircuitErrorLocation {\n    flipped_pauli_product: X8[coords 1,3]*Y14[coords 0,4]\n    Circuit location stack trace:\n        (after 3 TICKs)\n        at instruction #31 (DEPOLARIZE2) in the circuit\n        at targets #7 to #8 of the instruction\n        resolving to DEPOLARIZE2(0.02) 8[coords 1,3] 14[coords 0,4]\n}",
+            "CircuitErrorLocation {\n    flipped_pauli_product: Y8[coords 1,3]*X14[coords 0,4]\n    Circuit location stack trace:\n        (after 3 TICKs)\n        at instruction #31 (DEPOLARIZE2) in the circuit\n        at targets #7 to #8 of the instruction\n        resolving to DEPOLARIZE2(0.02) 8[coords 1,3] 14[coords 0,4]\n}"
+          ]
+        },
+        {
+          "dem_term": "error(0.009311274403040770489) D0 D8",
+          "coords": [
+            [
+              0.0,
+              4.0
+            ],
+            [
+              1.0,
+              3.0
+            ],
+            [
+              1.0,
+              5.0
+            ]
+          ],
+          "location_count": 10,
+          "locations": [
+            "CircuitErrorLocation {\n    flipped_pauli_product: X14[coords 0,4]\n    Circuit location stack trace:\n        (after 7 TICKs)\n        at instruction #42 (X_ERROR) in the circuit\n        at target #5 of the instruction\n        resolving to X_ERROR(0.002) 14[coords 0,4]\n}",
+            "CircuitErrorLocation {\n    flipped_pauli_product: X14[coords 0,4]\n    Circuit location stack trace:\n        (after 3 TICKs)\n        at instruction #31 (DEPOLARIZE2) in the circuit\n        at targets #7 to #8 of the instruction\n        resolving to DEPOLARIZE2(0.02) 8[coords 1,3] 14[coords 0,4]\n}",
+            "CircuitErrorLocation {\n    flipped_pauli_product: Y14[coords 0,4]\n    Circuit location stack trace:\n        (after 3 TICKs)\n        at instruction #31 (DEPOLARIZE2) in the circuit\n        at targets #7 to #8 of the instruction\n        resolving to DEPOLARIZE2(0.02) 8[coords 1,3] 14[coords 0,4]\n}"
+          ]
+        },
+        {
+          "dem_term": "error(0.01062503270450521585) D1 D2",
+          "coords": [
+            [
+              2.0,
+              2.0
+            ],
+            [
+              3.0,
+              3.0
+            ]
+          ],
+          "location_count": 7,
+          "locations": [
+            "CircuitErrorLocation {\n    flipped_pauli_product: X10[coords 3,3]*X9[coords 2,2]\n    Circuit location stack trace:\n        (after 2 TICKs)\n        at instruction #28 (DEPOLARIZE2) in the circuit\n        at targets #9 to #10 of the instruction\n        resolving to DEPOLARIZE2(0.02) 10[coords 3,3] 9[coords 2,2]\n}",
+            "CircuitErrorLocation {\n    flipped_pauli_product: X10[coords 3,3]*Y9[coords 2,2]\n    Circuit location stack trace:\n        (after 2 TICKs)\n        at instruction #28 (DEPOLARIZE2) in the circuit\n        at targets #9 to #10 of the instruction\n        resolving to DEPOLARIZE2(0.02) 10[coords 3,3] 9[coords 2,2]\n}",
+            "CircuitErrorLocation {\n    flipped_pauli_product: Y10[coords 3,3]*X9[coords 2,2]\n    Circuit location stack trace:\n        (after 2 TICKs)\n        at instruction #28 (DEPOLARIZE2) in the circuit\n        at targets #9 to #10 of the instruction\n        resolving to DEPOLARIZE2(0.02) 10[coords 3,3] 9[coords 2,2]\n}"
+          ]
+        },
+        {
+          "dem_term": "error(0.01194948141279741222) D1 D5",
+          "coords": [
+            [
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              3.0
+            ],
+            [
+              2.0,
+              2.0
+            ],
+            [
+              3.0,
+              1.0
+            ],
+            [
+              3.0,
+              3.0
+            ]
+          ],
+          "location_count": 12,
+          "locations": [
+            "CircuitErrorLocation {\n    flipped_pauli_product: X9[coords 2,2]\n    Circuit location stack trace:\n        (after 7 TICKs)\n        at instruction #42 (X_ERROR) in the circuit\n        at target #2 of the instruction\n        resolving to X_ERROR(0.002) 9[coords 2,2]\n}",
+            "CircuitErrorLocation {\n    flipped_pauli_product: X9[coords 2,2]\n    Circuit location stack trace:\n        (after 5 TICKs)\n        at instruction #37 (DEPOLARIZE2) in the circuit\n        at targets #7 to #8 of the instruction\n        resolving to DEPOLARIZE2(0.02) 1[coords 1,1] 9[coords 2,2]\n}",
+            "CircuitErrorLocation {\n    flipped_pauli_product: Y9[coords 2,2]\n    Circuit location stack trace:\n        (after 5 TICKs)\n        at instruction #37 (DEPOLARIZE2) in the circuit\n        at targets #7 to #8 of the instruction\n        resolving to DEPOLARIZE2(0.02) 1[coords 1,1] 9[coords 2,2]\n}"
+          ]
+        }
+      ],
+      "unknown": []
+    }
+  }
+}
